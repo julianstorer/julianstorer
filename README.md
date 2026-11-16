@@ -8,17 +8,20 @@ work on Cmajor and CHOC.
 
 **A coding agent with a proper interface, not an endless transcript.**
 
-I spend a lot of my working day with coding agents. I wanted to be able
-to see exactly what they're doing, edit what the model sees, and explore
-a tangent without burying the original conversation. So I built
-[Juggler](https://juggler.studio).
+When I started using coding agents on a daily basis, having been building
+dev-tools for so long, I inevitably had some opinions about the best UX and
+architecture for them.. So I built the code agent that I wanted to use
+myself: [Juggler](https://juggler.studio).
 
-It gives your sessions a branching, navigable interface: inspect model
-requests and tool calls, split work into sub-threads, and switch models
-without starting over. Use Claude Code, Codex, hosted APIs or local
-models, on your machine or your own server.
+For me, it's essential that the UI is fast to navigate, and lets me inspect
+everything that going on, at every level, so it uses a novel Miller-column
+layout to let you drill into conversations. It runs as a desktop app, but has
+a fully client-server model so you can use the same GUI across a network to
+control remote sessions, even on headless machines. And everything it does
+is a plugin. 
 
-Open source. No sign-up needed. No Electron.
+Use Claude Code, Codex, hosted APIs or local models. 
+Open source. No sign-up needed. It's a native app: no Electron.
 
 **[Try Juggler](https://juggler.studio) ·
 [Read the source](https://github.com/juggler-ai/juggler)**
