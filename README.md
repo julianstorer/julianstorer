@@ -13,12 +13,11 @@ dev-tools for so long, I inevitably had some opinions about the best UX and
 architecture for them.. So I built the code agent that I wanted to use
 myself: [Juggler](https://juggler.studio).
 
-For me, it's essential that the UI is fast to navigate, and lets me inspect
-everything that going on, at every level, so it uses a novel Miller-column
-layout to let you drill into conversations. It runs as a desktop app, but has
-a fully client-server model so you can use the same GUI across a network to
-control remote sessions, even on headless machines. And everything it does
-is a plugin. 
+I wanted a nice-looking GUI that hides nothing but is very fast to navigate.
+It uses a novel Miller-column layout to let you drill into conversations. 
+It runs as a desktop app, but its client-server model lets you seamlessly 
+connect to sessions on other machines on the network, or run it as a headless
+server. And every aspect of it - tools, strategies, UI etc, are plugins. 
 
 Use Claude Code, Codex, hosted APIs or local models. 
 Open source. No sign-up needed. It's a native app: no Electron.
